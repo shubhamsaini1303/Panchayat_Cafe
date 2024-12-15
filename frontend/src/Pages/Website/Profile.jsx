@@ -89,9 +89,11 @@ const Profile = () => {
               >
                 Logout
               </button>
+              <br/>
+              <br/>
                          <button
                 
-                className="w-full py-2 px-4 rounded-md bg-black text-white hover:bg-gray-200"
+                className="w-full py-2 px-4 rounded-md bg-black text-white"
               >
                                      <Link to="/admin/login"><li>Admin Only</li></Link>
               </button>
