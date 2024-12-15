@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import OrderListing from "./OrderListing";
 import { emptyCart } from "../../Reducers/CartSlice";
 import { logout } from "../../Reducers/UserSlice";
+import { Link } from "react-router-dom";
 
 const Profile = () => {
   const dispatch = useDispatch();
