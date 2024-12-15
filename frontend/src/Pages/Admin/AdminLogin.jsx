@@ -28,7 +28,7 @@ export default function Adminlogin() {
 
         try {
             const response = await axios.post(
-                `${import.meta.env.VITE_API_BASE_URL}${import.meta.env.VITE_ADMIN_BASE_URL}/login`,
+                `${import.meta.env.VITE_API_BASE_URL}/admin/login`,
                 data
             );
 
