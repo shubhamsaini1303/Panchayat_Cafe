@@ -208,12 +208,12 @@ const Home = () => {
 
               <div className="flex h-[300px]  mt-4 gap-4 justify-center">
                 <img
-                  src="/public/Images/download-removebg-preview.png"
+                  src="/Images/download-removebg-preview.png"
                   className="h-30 w-30 rounded-md object-cover"
                   alt="Gallery Image 1"
                 />
                 <img
-                  src="/public/Images/time.png"
+                  src="/Images/time.png"
                   className="h-28 w-28 rounded-md object-cover"
                   alt="Gallery Image 2"
                 />
